@@ -2,6 +2,25 @@
 
 **ACMOJ Problem ID**: 2559
 
+## Solution Summary
+
+**Status**: ✅ ACCEPTED - 100/100 Points
+
+**Submission Details**:
+- Submission ID: 767183
+- Result: Accepted on first attempt
+- All 8 test cases passed
+- Maximum memory: 8.4 MB
+- Maximum time: 173 ms (well within 1000 ms limit)
+
+**Implementation**: `src.hpp`
+
+The solution implements the Linear Scan Register Allocation algorithm with the following key features:
+- Uses FILO (stack-based) free register allocation
+- Maintains active intervals sorted by endpoint
+- Correctly handles register expiration and spilling
+- Tested against the provided sample and verified correctness
+
 ## Table of Contents
 
 - [Problem 119 - Linear Scan](#problem-119-linear-scan)
